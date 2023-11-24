@@ -10,7 +10,7 @@ function Header() {
   return (
     <header className="p-6 mx-auto">
       <nav className="flex flex-row justify-between items-center">
-        <div className="basis-2/6 text-center text-xl font-semibold cursor-pointer">
+        <div className="basis-2/6 text-center text-xl font-bold cursor-pointer">
           CoffeeStyle.
         </div>
 
