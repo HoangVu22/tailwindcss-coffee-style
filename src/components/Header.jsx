@@ -1,21 +1,31 @@
+import { useState } from 'react'
+
 function Header() {
+  const [showMenu, setShowMenu] = useState(false)
+  
+  const handleToggleMenu = () => {
+    setShowMenu(!showMenu); 
+  };
+
   return (
-    <header className="py-6 mx-10">
+    <header className="p-6 mx-auto">
       <nav className="flex flex-row justify-between items-center">
-        <div className="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
+        <div className="basis-2/6 text-center text-xl font-semibold cursor-pointer">
           CoffeeStyle.
         </div>
 
-        <ul className="basic-3/6 flex justify-end items-center gap-8 uppercase text-sm text-gray-500 font-medium">
-          <li className="nhv-header-menu-item"><a href="#">Home</a></li>
-          <li className="nhv-header-menu-item"><a href="#">Products</a></li>
-          <li className="nhv-header-menu-item"><a href="#">Blog</a></li>
-          <li className="nhv-header-menu-item"><a href="#">About</a></li>
-          <li className="nhv-header-menu-item"><a href="#">Contact</a></li>
-          <li className="nhv-header-menu-item"><a href="#">Styleguide</a></li>
-        </ul>
+        {showMenu && (
+          <ul className="basic-3/6 hidden lg:flex lg:justify-end lg:items-center lg:gap-8 uppercase text-sm text-gray-500 font-medium">
+            <li className="nhv-header-menu-item"><a href="#">Home</a></li>
+            <li className="nhv-header-menu-item"><a href="#">Products</a></li>
+            <li className="nhv-header-menu-item"><a href="#">Blog</a></li>
+            <li className="nhv-header-menu-item"><a href="#">About</a></li>
+            <li className="nhv-header-menu-item"><a href="#">Contact</a></li>
+            <li className="nhv-header-menu-item"><a href="#">Styleguide</a></li>
+          </ul>
+        )}
 
-        <ul className="basis-1/6 flex justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
+        <ul className="basis-3/6 lg:basis-1/6 flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
           <li className="nhv-header-menu-item">
             <a href="#" className="flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="nhv-icon">
@@ -26,6 +36,12 @@ function Header() {
             </a>
           </li>
         </ul>
+
+        <div className="basis-1/6 lg:hidden flex items-center cursor-pointer px-4 sm:px-6">
+          <svg onClick={handleToggleMenu} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="nhv-icon">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </div>
       </nav>
     </header>
   )

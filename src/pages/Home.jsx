@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 
 function Home() {
   return (
-    <div className="content-wrapper max-w-screen-xl text-base mx-auto px-8 bg-slate-200">
+    <div className="content-wrapper font-Karla max-w-screen-xl text-base mx-auto px-8 bg-slate-200">
       <Header />
       
       <div className="slider">

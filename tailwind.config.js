@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Karla: ['Karla', 'sans-serif']
+      },
       colors: {
         'light-coffee': '#c89f94'
       }
