@@ -20,7 +20,7 @@
 
 /* Subheading */
 .nhv-subheading {
- @apply flex justify-center items-center mb-24
+ @apply flex justify-center items-center mb-20
 }
 
 .nhv-subheading-deco-line {
@@ -29,4 +29,9 @@
 
 .nhv-subheading-label {
   @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[13px] text-center
+}
+
+/* Button */
+.nhv-button {
+  @apply text-center uppercase tracking-widest py-4 px-6 text-[13px] font-semibold cursor-pointer hover:bg-opacity-95
 }
