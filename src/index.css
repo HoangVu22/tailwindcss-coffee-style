@@ -4,14 +4,29 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Header */
 .nhv-header-menu-item {
   @apply cursor-pointer py-1 hover:text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 hover:after:w-full after:w-0 after:bg-coffee-200 after:transition-all after:ease-in-out after:duration-300
 }
 
+.nhv-badge {
+  @apply text-xs text-center rounded-full px-1.5
+}
+
+/* Icon */
 .nhv-icon {
   @apply w-5 h-5 inline-block
 }
 
-.nhv-badge {
-  @apply text-xs text-center rounded-full px-1.5
+/* Subheading */
+.nhv-subheading {
+ @apply flex justify-center items-center mb-24
+}
+
+.nhv-subheading-deco-line {
+ @apply w-8 h-px bg-gray-200
+}
+
+.nhv-subheading-label {
+  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[13px] text-center
 }

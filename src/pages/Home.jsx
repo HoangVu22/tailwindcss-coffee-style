@@ -31,18 +31,38 @@ function Home() {
         </div>
       </div>
 
+      <div className="nhv-subheading">
+        <div className="nhv-subheading-deco-line"></div>
+        <div className="nhv-subheading-label">Featured mugs</div>
+        <div className="nhv-subheading-deco-line"></div>
+      </div>
       <div className="featured-mugs">
         Featured mugs
       </div>
 
+      <div className="nhv-subheading">
+        <div className="nhv-subheading-deco-line"></div>
+        <div className="nhv-subheading-label">More products</div>
+        <div className="nhv-subheading-deco-line"></div>
+      </div>
       <div className="more-products">
         More products
       </div>
 
+      <div className="nhv-subheading">
+        <div className="nhv-subheading-deco-line"></div>
+        <div className="nhv-subheading-label">Coffee magazine</div>
+        <div className="nhv-subheading-deco-line"></div>
+      </div>
       <div className="coffee-magazine">
         Coffee magazine
       </div>
 
+      <div className="nhv-subheading">
+        <div className="nhv-subheading-deco-line"></div>
+        <div className="nhv-subheading-label">Behind the mugs, lifestyle stories</div>
+        <div className="nhv-subheading-deco-line"></div>
+      </div>
       <div className="lifestyle-stories">
         lifestyle stories
       </div>
