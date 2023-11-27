@@ -200,8 +200,22 @@ function Home() {
         <div className="nhv-subheading-label">Coffee magazine</div>
         <div className="nhv-subheading-deco-line"></div>
       </div>
-      <div className="coffee-magazine">
-        Coffee magazine
+      <div className="coffee-magazine w-[95%] lg:w-[70%] mx-auto mb-24">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-5">
+          <div className="nhv-magazine-image basis-1/2 flex flex-row gap-5 w-full h-full mb-5 md:mb-0">
+            <div className="h-[280px] bg-[url('./public/images/magazine-01.jpg')] bg-cover bg-no-repeat bg-center basis-2/3"></div>
+            <div className="basis-1/3 flex flex-col gap-5">
+              <div className="h-[130px] bg-[url('./public/images/more-product-01.jpg')] bg-cover bg-no-repeat bg-center"></div>
+              <div className="h-[130px] bg-[url('./public/images/more-product-02.jpg')] bg-cover bg-no-repeat bg-center"></div>
+            </div>
+          </div>
+          <div className="nhv-magazine-post basis-1/2 pl-4 text-center md:text-left">
+            <div className="uppercase tracking-widest text-gray-500 font-medium text-[13px] mb-4">Premium offer</div>
+            <div className="text-4xl mb-4 text-gray-800">Get our Coffee Magazine</div>
+            <div className="text-gray-500 mb-4 leading-7">The most versatile furniture system ever created. Designed to fit your life.</div>
+            <div className="nhv-button bg-gray-950 text-white w-max mx-auto md:mx-0">Start shopping</div>
+          </div>
+        </div>
       </div>
 
       <div className="nhv-subheading">
