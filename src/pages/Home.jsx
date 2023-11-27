@@ -82,8 +82,117 @@ function Home() {
         <div className="nhv-subheading-label">More products</div>
         <div className="nhv-subheading-deco-line"></div>
       </div>
-      <div className="more-products">
-        More products
+      <div className="more-products w-[95%] lg:w-[70%] mx-auto mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-4 gap-10">
+          <div className="nhv-product-cart">
+            <div className="h-[380px] bg-[url('./public/images/more-product-01.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="Featured-mugs">
+                <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                  <div className="nhv-button absolute bg-white text-gray-950 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">Explore mug</div>
+                </div>
+              </a>
+            </div>
+            <div className="nhv-product-info text-center my-8">
+              <a href="" alt="Product-name">
+                <div className="text-xl mb-2 font-medium hover:text-coffee-400">Black Tea Cup</div>
+              </a>
+              <div>
+                <span className='text-gray-400'>$29.00 USD</span>
+              </div>
+            </div>
+          </div>
+          <div className="nhv-product-cart">
+            <div className="h-[380px] bg-[url('./public/images/more-product-02.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="Featured-mugs">
+                <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                  <div className="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400 rounded-md">On Sale.</div>
+                  <div className="nhv-button absolute bg-white text-gray-950 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">Explore mug</div>
+                </div>
+              </a>
+            </div>
+            <div className="text-center my-8">
+              <a href="" alt="Product-name">
+                <div className="text-xl mb-2 font-medium hover:text-coffee-400">Winter Style Mug</div>
+              </a>
+              <div>
+                <span className="text-xl text-coffee-400 font-medium">$15.00</span>
+                <span className='ml-2 text-gray-400 line-through'>$25.00 USD</span>
+              </div>
+            </div>
+          </div>
+          <div className="nhv-product-cart">
+            <div className="h-[380px] bg-[url('./public/images/more-product-03.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="Featured-mugs">
+                <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                  <div className="nhv-button absolute bg-white text-gray-950 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">Explore mug</div>
+                </div>
+              </a>
+            </div>
+            <div className="nhv-product-info text-center my-8">
+              <a href="" alt="Product-name">
+                <div className="text-xl mb-2 font-medium hover:text-coffee-400">Red Love Cup</div>
+              </a>
+              <div>
+                <span className='text-gray-400'>$37.00 USD</span>
+              </div>
+            </div>
+          </div>
+          <div className="nhv-product-cart">
+            <div className="h-[380px] bg-[url('./public/images/featured-mugs-02.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="Featured-mugs">
+                <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                  <div className="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400 rounded-md">On Sale.</div>
+                  <div className="nhv-button absolute bg-white text-gray-950 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">Explore mug</div>
+                </div>
+              </a>
+            </div>
+            <div className="text-center my-8">
+              <a href="" alt="Product-name">
+                <div className="text-xl mb-2 font-medium hover:text-coffee-400">Golden Designers Mug</div>
+              </a>
+              <div>
+                <span className="text-xl text-coffee-400 font-medium">$50.00</span>
+                <span className='ml-2 text-gray-400 line-through'>$69.00 USD</span>
+              </div>
+            </div>
+          </div>
+          <div className="nhv-product-cart">
+            <div className="h-[380px] bg-[url('./public/images/featured-mugs-01.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="Featured-mugs">
+                <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                  <div className="nhv-button absolute bg-white text-gray-950 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">Explore mug</div>
+                </div>
+              </a>
+            </div>
+            <div className="nhv-product-info text-center my-8">
+              <a href="" alt="Product-name">
+                <div className="text-xl mb-2 font-medium hover:text-coffee-400">Pink Premium Ceramic</div>
+              </a>
+              <div>
+                <span className='text-gray-400'>$99.00 USD</span>
+              </div>
+            </div>
+          </div>
+          <div className="nhv-product-cart">
+            <div className="h-[380px] bg-[url('./public/images/more-product-01.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="Featured-mugs">
+                <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                  <div className="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400 rounded-md">On Sale.</div>
+                  <div className="nhv-button absolute bg-white text-gray-950 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">Explore mug</div>
+                </div>
+              </a>
+            </div>
+            <div className="text-center my-8">
+              <a href="" alt="Product-name">
+                <div className="text-xl mb-2 font-medium hover:text-coffee-400">Black Tea Cup</div>
+              </a>
+              <div>
+                <span className="text-xl text-coffee-400 font-medium">$15.00</span>
+                <span className='ml-2 text-gray-400 line-through'>$29.00 USD</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="nhv-subheading">
