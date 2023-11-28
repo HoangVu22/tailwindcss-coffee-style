@@ -218,6 +218,9 @@ function Home() {
         </div>
       </div>
 
+      {/* parallax */}
+      <div className="nhv-parallax bg-[url('./public/images/parallax-01.jpg')] bg-cover bg-no-repeat bg-center h-[340px] mb-24 bg-fixed w-[100vw] relative left-[calc(-50vw+50%)]"></div>
+
       <div className="nhv-subheading">
         <div className="nhv-subheading-deco-line"></div>
         <div className="nhv-subheading-label">Behind the mugs, lifestyle stories</div>
