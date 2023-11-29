@@ -226,8 +226,57 @@ function Home() {
         <div className="nhv-subheading-label">Behind the mugs, lifestyle stories</div>
         <div className="nhv-subheading-deco-line"></div>
       </div>
-      <div className="lifestyle-stories">
-        lifestyle stories
+      <div className="lifestyle-stories w-[95%] lg:w-[70%] mx-auto mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-5 gap-10">
+          <div className="nhv-lifestyle-cart">
+            <div className="h-[280px] bg-[url('./public/images/lifestyle-01.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="Featured-mugs">
+                <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                  <div className="nhv-button absolute bg-white text-gray-950 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">Read the full story</div>
+                </div>
+              </a>
+            </div>
+            <div className="text-left my-6">
+              <a href="" alt="Product-name">
+                <div className="text-xl mb-2 text-gray-800 hover:text-coffee-400">Health Check: why do I get a headache when I haven’t had my coffee?</div>
+              </a>
+              <div className='text-gray-500 mb-3 leading-7'>It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</div>
+              <div className='text-gray-500 leading-7 uppercase text-sm font-medium tracking-widest'>November 29. 2023</div>
+            </div>
+          </div>
+          <div className="nhv-lifestyle-cart">
+            <div className="h-[280px] bg-[url('./public/images/lifestyle-02.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="Featured-mugs">
+                <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                  <div className="nhv-button absolute bg-white text-gray-950 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">Read the full story</div>
+                </div>
+              </a>
+            </div>
+            <div className="text-left my-6">
+              <a href="" alt="Product-name">
+                <div className="text-xl mb-2 text-gray-800 hover:text-coffee-400">How long does a cup of coffee keep you awake?</div>
+              </a>
+              <div className='text-gray-500 mb-3 leading-7'>It is a paradisematic country, in which roasted parts. Vel qui et ad voluptatem.</div>
+              <div className='text-gray-500 leading-7 uppercase text-sm font-medium tracking-widest'>November 29. 2023</div>
+            </div>
+          </div>
+          <div className="nhv-lifestyle-cart">
+            <div className="h-[280px] bg-[url('./public/images/more-product-02.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="Featured-mugs">
+                <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                  <div className="nhv-button absolute bg-white text-gray-950 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">Read the full story</div>
+                </div>
+              </a>
+            </div>
+            <div className="text-left my-6">
+              <a href="" alt="Product-name">
+                <div className="text-xl mb-2 text-gray-800 hover:text-coffee-400">Recent research suggests that heavy coffee drinkers may reap health benefits.</div>
+              </a>
+              <div className='text-gray-500 mb-3 leading-7'>It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</div>
+              <div className='text-gray-500 leading-7 uppercase text-sm font-medium tracking-widest'>November 29. 2023</div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="subscribe-us">
