@@ -279,8 +279,22 @@ function Home() {
         </div>
       </div>
 
-      <div className="subscribe-us">
-        Subscribe us
+      <div className="subscribe-us h-[350px] bg-[#1d1f2e] mb-24 flex flex-col justify-center items-center">
+        <div className="flex justify-center items-center px-6 sm:px-0 mb-4">
+          <div className="w-8 h-px bg-gray-700"></div>
+          <div className="uppercase mx-4 tracking-widest text-gray-400 font-bold text-[13px] text-center">Sign in and get free coffee bags</div>
+          <div className="w-8 h-px bg-gray-700"></div>
+        </div>
+        <div className="text-4xl mb-7 text-white">Coffee Updates</div>
+        <div className="nhv-form flex flex-col md:flex-row justify-center items-center gap-3">
+          <div className="text-center">
+            <input type="email" placeholder='customer@gmail.com' className="px-6 py-4 w-[350px] max-w-[80%] sm:max-w-full bg-inherit border-[1px] border-gray-700 outline-none text-white leading-5 
+            hover:border-gray-400 duration-500 focus:border-gray-400 placeholder:tracking-widest" />
+          </div>
+          <div className="text-center">
+            <button type="submit" className="nhv-button bg-white text-gray-950 w-[350px] md:w-max max-w-[80%] sm:max-w-full leading-5">Subscribe</button>
+          </div>
+        </div>
       </div>
 
       <Footer />
