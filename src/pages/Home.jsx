@@ -6,7 +6,7 @@ function Home() {
     <div className="content-wrapper font-Karla max-w-screen-xl text-base mx-auto px-8">
       <Header />
       
-      <div className="slider h-[530px] bg-[url('./public/images/slider.jpg')] bg-cover bg-no-repeat bg-bottom">
+      <div className="slider h-[530px] bg-[url('./public/images/slider.jpg')] bg-cover bg-no-repeat bg-bottom mb-24">
         <div className="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-30"> 
           <div className="mx-16 text-white text-center">
             <div className="uppercase mb-6 tracking-widest">Best place to buy coffee</div>
@@ -21,11 +21,21 @@ function Home() {
         </div>
       </div>
 
-      <div className="story flex justify-center items-center">
-        <div className="px-4 sm:px-16 md:px-32 lg:px-64 xl:px-72 py-32 text-center">
-          <div className="text-3xl mb-6 leading-10 text-gray-900">Even the all-powerful Pointing has no control about the blind texts.</div>
-          <div className="text-gray-500 mb-6 leading-7">It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</div>
-          <div className="">
+      <div className="nhv-subheading">
+        <div className="nhv-subheading-deco-line"></div>
+        <div className="nhv-subheading-label">Our Coffee Story</div>
+        <div className="nhv-subheading-deco-line"></div>
+      </div>
+      <div className="story flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-4 w-[95%] lg:w-[70%] mx-auto mb-24">
+        <div className="basis-1/2">
+          <video autoPlay loop muted className="w-full h-full object-cover lg:min-h-[350px] min-h-[250px]">
+            <source src="../../public/videos/video-story-coffee.mp4" type="" />
+          </video>
+        </div>
+        <div className="lg:text-left text-center basis-1/2 lg:pl-6">
+          <div className="text-3xl mb-6 leading-10 text-gray-900">What is your most special coffee?</div>
+          <div className="text-gray-500 mb-6 leading-7">The French Press is a brewing method that comes closest to cupping. Cupping is the prescribed method by which coffee should be judged. Nothing separates the water from the coffee. To properly discover the flavours, it is best to drink the coffee this way. Everyone has their favourite brewing method.</div>
+          <div>
             <a href="#" className='text-coffee-400 hover:text-coffee-600 relative after:absolute after:-bottom-2 after:left-0 after:h-0.5 after:w-full after:bg-coffee-50 hover:after:bg-coffee-200 after:transition-all after:ease-in-out after:duration-300'>Read the full Story</a>
           </div>
         </div>
@@ -85,7 +95,7 @@ function Home() {
       <div className="more-products w-[95%] lg:w-[70%] mx-auto mb-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-4 gap-10">
           <div className="nhv-product-cart">
-            <div className="h-[380px] bg-[url('./public/images/more-product-01.jpg')] bg-cover bg-no-repeat bg-center">
+            <div className="h-[340px] bg-[url('./public/images/more-product-01.jpg')] bg-cover bg-no-repeat bg-center">
               <a href="#" alt="Featured-mugs">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
                   <div className="nhv-button absolute bg-white text-gray-950 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">Explore mug</div>
@@ -102,7 +112,7 @@ function Home() {
             </div>
           </div>
           <div className="nhv-product-cart">
-            <div className="h-[380px] bg-[url('./public/images/more-product-02.jpg')] bg-cover bg-no-repeat bg-center">
+            <div className="h-[340px] bg-[url('./public/images/more-product-02.jpg')] bg-cover bg-no-repeat bg-center">
               <a href="#" alt="Featured-mugs">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
                   <div className="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400 rounded-md">On Sale.</div>
@@ -121,7 +131,7 @@ function Home() {
             </div>
           </div>
           <div className="nhv-product-cart">
-            <div className="h-[380px] bg-[url('./public/images/more-product-03.jpg')] bg-cover bg-no-repeat bg-center">
+            <div className="h-[340px] bg-[url('./public/images/more-product-03.jpg')] bg-cover bg-no-repeat bg-center">
               <a href="#" alt="Featured-mugs">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
                   <div className="nhv-button absolute bg-white text-gray-950 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">Explore mug</div>
@@ -138,7 +148,7 @@ function Home() {
             </div>
           </div>
           <div className="nhv-product-cart">
-            <div className="h-[380px] bg-[url('./public/images/featured-mugs-02.jpg')] bg-cover bg-no-repeat bg-center">
+            <div className="h-[340px] bg-[url('./public/images/featured-mugs-02.jpg')] bg-cover bg-no-repeat bg-center">
               <a href="#" alt="Featured-mugs">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
                   <div className="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400 rounded-md">On Sale.</div>
@@ -157,7 +167,7 @@ function Home() {
             </div>
           </div>
           <div className="nhv-product-cart">
-            <div className="h-[380px] bg-[url('./public/images/featured-mugs-01.jpg')] bg-cover bg-no-repeat bg-center">
+            <div className="h-[340px] bg-[url('./public/images/featured-mugs-01.jpg')] bg-cover bg-no-repeat bg-center">
               <a href="#" alt="Featured-mugs">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
                   <div className="nhv-button absolute bg-white text-gray-950 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">Explore mug</div>
@@ -174,7 +184,7 @@ function Home() {
             </div>
           </div>
           <div className="nhv-product-cart">
-            <div className="h-[380px] bg-[url('./public/images/more-product-01.jpg')] bg-cover bg-no-repeat bg-center">
+            <div className="h-[340px] bg-[url('./public/images/more-product-01.jpg')] bg-cover bg-no-repeat bg-center">
               <a href="#" alt="Featured-mugs">
                 <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
                   <div className="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400 rounded-md">On Sale.</div>
